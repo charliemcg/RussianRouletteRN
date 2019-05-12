@@ -14,8 +14,9 @@ const EMAIL = "violenthoboenterprises@gmail.com";
 class Options extends Component {
   handleEmail = () => {
     // inform user of error
-    email(EMAIL, { subject: "RE: Tone Tracker" }).catch(err =>
-      console.error("An error occured", err)
+    email(EMAIL, { subject: "RE: Tone Tracker" }).catch(e =>
+      // console.error("An error occured", err)
+      Alert.alert("Error", String(e))
     )
   };
   render() {
