@@ -46,13 +46,13 @@
 		61428200228513FB00B32DAD /* emptychamber.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61D995CB228447CE004BE167 /* emptychamber.mp3 */; };
 		614282012285140800B32DAD /* gunshot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61D995CD228447E9004BE167 /* gunshot.mp3 */; };
 		61A2FC2C2287DE7E00578B81 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6188A84F2285757F00C231D3 /* libRNGestureHandler.a */; };
-		6CB8C3AADCB44CF7884EF8B3 /* libPlaySound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF654160F5B4A09827FA11B /* libPlaySound.a */; };
 		82B4A42171CE4198A564E887 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1950584698FD41928EFE1823 /* MaterialCommunityIcons.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		86A04F86D5C94D0DA720A17B /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7ACD93CBF924AA291AD30EF /* libRNGestureHandler-tvOS.a */; };
 		AA7B79A9E1C14AA6A7DA93E2 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 985E80FC7B144EE7A0A031C2 /* MaterialIcons.ttf */; };
 		AB9319758FBD4666925B695D /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F2533BE06B942C0B0DAD410 /* EvilIcons.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		AE2734755FD44C6D8A7FEAB1 /* libRNReactNativeHapticFeedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F54486705A034C1D8B4BEF23 /* libRNReactNativeHapticFeedback.a */; };
 		B7089307464145EB84BF4822 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1617625A146C464FB5DFC234 /* Entypo.ttf */; };
 		B73A1BC02B6A44C9B6F53683 /* libRNVectorIcons-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2EE24465004911BD97F9F4 /* libRNVectorIcons-tvOS.a */; };
 		BC7DCF874C9D4BECBFB94EC1 /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8824253682DE4235A2A4BF67 /* libRNSound.a */; };
@@ -320,6 +320,13 @@
 			remoteGlobalIDString = B5C32A36220C603B000FFB8D;
 			remoteInfo = "RNGestureHandler-tvOS";
 		};
+		618F915C22885F450043DA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2094284BD4443A3BCAB5729 /* RNReactNativeHapticFeedback.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNReactNativeHapticFeedback;
+		};
 		61A2FC992287F6C600578B81 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FFB4952BBAA04EF58AA3D078 /* RNVectorIcons.xcodeproj */;
@@ -482,6 +489,8 @@
 		ECD0C83D5DBA43F1B459CEE7 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F2094284BD4443A3BCAB5729 /* RNReactNativeHapticFeedback.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNReactNativeHapticFeedback.xcodeproj; path = "../node_modules/react-native-haptic-feedback/ios/RNReactNativeHapticFeedback.xcodeproj"; sourceTree = "<group>"; };
+		F54486705A034C1D8B4BEF23 /* libRNReactNativeHapticFeedback.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNReactNativeHapticFeedback.a; sourceTree = "<group>"; };
 		FE39B2515E564F5E8B730E71 /* libReactNativeNavigation.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeNavigation.a; sourceTree = "<group>"; };
 		FFB4952BBAA04EF58AA3D078 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -516,8 +525,8 @@
 				372CD9B422E542F4917EBAB3 /* libReactNativeLocalization.a in Frameworks */,
 				E5693806F83C4BA79A82DDF6 /* libBVLinearGradient.a in Frameworks */,
 				BC7DCF874C9D4BECBFB94EC1 /* libRNSound.a in Frameworks */,
-				6CB8C3AADCB44CF7884EF8B3 /* libPlaySound.a in Frameworks */,
 				E54F720C0DD741ADA1120986 /* libRNVectorIcons.a in Frameworks */,
+				AE2734755FD44C6D8A7FEAB1 /* libRNReactNativeHapticFeedback.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +712,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		618F915922885F450043DA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				618F915D22885F450043DA22 /* libRNReactNativeHapticFeedback.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		61A2FC952287F6C600578B81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -726,6 +743,7 @@
 				A7ACD93CBF924AA291AD30EF /* libRNGestureHandler-tvOS.a */,
 				3BB51A27510140C485AAE981 /* libRNVectorIcons.a */,
 				8C2EE24465004911BD97F9F4 /* libRNVectorIcons-tvOS.a */,
+				F54486705A034C1D8B4BEF23 /* libRNReactNativeHapticFeedback.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -794,6 +812,7 @@
 				2834FF33DE4646CEAFFCE460 /* ReactNativeNavigation.xcodeproj */,
 				9C53FD6D60E64B4FA7D0B85D /* RNGestureHandler.xcodeproj */,
 				FFB4952BBAA04EF58AA3D078 /* RNVectorIcons.xcodeproj */,
+				F2094284BD4443A3BCAB5729 /* RNReactNativeHapticFeedback.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -955,6 +974,9 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = WYATHR7989;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -1046,6 +1068,10 @@
 				{
 					ProductGroup = 6188A84A2285757F00C231D3 /* Products */;
 					ProjectRef = 9C53FD6D60E64B4FA7D0B85D /* RNGestureHandler.xcodeproj */;
+				},
+				{
+					ProductGroup = 618F915922885F450043DA22 /* Products */;
+					ProjectRef = F2094284BD4443A3BCAB5729 /* RNReactNativeHapticFeedback.xcodeproj */;
 				},
 				{
 					ProductGroup = 61D995B622843B4E004BE167 /* Products */;
@@ -1303,6 +1329,13 @@
 			fileType = archive.ar;
 			path = "libRNGestureHandler-tvOS.a";
 			remoteRef = 6188A8502285757F00C231D3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		618F915D22885F450043DA22 /* libRNReactNativeHapticFeedback.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNReactNativeHapticFeedback.a;
+			remoteRef = 618F915C22885F450043DA22 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		61A2FC9A2287F6C600578B81 /* libRNVectorIcons.a */ = {
@@ -1567,12 +1600,14 @@
 					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-haptic-feedback/ios",
 				);
 				INFOPLIST_FILE = RussianRouletteTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1608,12 +1643,14 @@
 					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-haptic-feedback/ios",
 				);
 				INFOPLIST_FILE = RussianRouletteTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1641,6 +1678,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = WYATHR7989;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-localization",
@@ -1650,6 +1688,7 @@
 					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-haptic-feedback/ios",
 				);
 				INFOPLIST_FILE = RussianRoulette/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1658,7 +1697,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.violenthoboenterprises.RussianRouletteRN;
 				PRODUCT_NAME = RussianRoulette;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1669,6 +1708,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WYATHR7989;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-localization",
@@ -1678,6 +1718,7 @@
 					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-haptic-feedback/ios",
 				);
 				INFOPLIST_FILE = RussianRoulette/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1686,7 +1727,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.violenthoboenterprises.RussianRouletteRN;
 				PRODUCT_NAME = RussianRoulette;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1711,11 +1752,13 @@
 					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-haptic-feedback/ios",
 				);
 				INFOPLIST_FILE = "RussianRoulette-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1758,11 +1801,13 @@
 					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-haptic-feedback/ios",
 				);
 				INFOPLIST_FILE = "RussianRoulette-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1806,11 +1851,13 @@
 					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-haptic-feedback/ios",
 				);
 				INFOPLIST_FILE = "RussianRoulette-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1854,11 +1901,13 @@
 					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-haptic-feedback/ios",
 				);
 				INFOPLIST_FILE = "RussianRoulette-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",

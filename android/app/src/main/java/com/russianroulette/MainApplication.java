@@ -3,6 +3,7 @@ package com.russianroulette;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.mkuczera.RNReactNativeHapticFeedbackPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.johnsonsu.rnsoundplayer.RNSoundPlayerPackage;
@@ -30,6 +31,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNReactNativeHapticFeedbackPackage(),
             new VectorIconsPackage(),
             new RNGestureHandlerPackage(),
             new RNSoundPlayerPackage(),

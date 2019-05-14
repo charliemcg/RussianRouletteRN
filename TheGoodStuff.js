@@ -12,7 +12,7 @@ import {
   StatusBar
 } from "react-native";
 import strings from "./strings";
-import gunImg from "./gunbackground.png";
+import gunImg from "./gunbackgroundnew.png";
 import styles from "./styles";
 import LinearGradient from "react-native-linear-gradient";
 import Sound from "react-native-sound";
@@ -20,6 +20,12 @@ import ModalSelector from 'react-native-modal-selector'
 // import { createAppContainer, createStackNavigator } from "react-navigation";
 import Icon from 'react-native-vector-icons/SimpleLineIcons'
 import Options from './Options'
+import ReactNativeHapticFeedback from "react-native-haptic-feedback";
+
+const vibrateOptions = {
+  enableVibrateFallback: true,
+  ignoreAndroidSystemSettings: true
+};
 
 // const MyStatusBar = ({ backgroundColor, ...props }) => (
 //   <View
@@ -123,12 +129,14 @@ export default class TheGoodStuff extends Component {
         }
         this.setState({ chambersInPlay: --this.state.chambersInPlay });
         click.play();
+        ReactNativeHapticFeedback.trigger("impactLight", vibrateOptions);
       } else {
         this.setState({
           bulletsInPlay: --this.state.bulletsInPlay,
           chambersInPlay: --this.state.chambersInPlay
         });
         bang.play();
+        ReactNativeHapticFeedback.trigger("impactHeavy", vibrateOptions);
         if (this.state.bulletsInPlay === 0) {
           this.setState({
             playMode: false,
@@ -168,7 +176,7 @@ export default class TheGoodStuff extends Component {
       <View>
         <View style={styles.parent}>
           <Image source={gunImg} style={styles.backgroundImg} />
-          <View style={styles.buffer} />
+          {/* <View style={styles.buffer} /> */}
         {/* <TouchableHighlight 
           onPress={() => this.props.navigation.navigate("TestScreen")}
           style={styles.overflow}>
@@ -182,7 +190,8 @@ export default class TheGoodStuff extends Component {
                   data={bullets}
                   initValue={String(this.state.bullets)}
                   onChange={value => this.handleBulletChange(value.label)}
-                  disabled={this.state.playMode}/>
+                  disabled={this.state.playMode}
+                  optionTextStyle={{color: "#222"}}/>
               </View>
             </View>
             <View style={styles.chambersPickerWrapper}>
@@ -192,7 +201,8 @@ export default class TheGoodStuff extends Component {
                   data={chambers}
                   initValue={String(this.state.chambers)}
                   onChange={value => this.handleChamberChange(value.label)}
-                  disabled={this.state.playMode}/>
+                  disabled={this.state.playMode}
+                  optionTextStyle={{color: "#222"}}/>
               </View>
             </View>
           </View>

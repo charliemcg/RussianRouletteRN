@@ -1,21 +1,21 @@
 import { Dimensions } from "react-native";
 
 export default {
-  parent: { height: "100%", backgroundColor: "#000" },
+  parent: {
+    height: "100%",
+    backgroundColor: "#000"
+  },
   backgroundImg: {
     height: Dimensions.get("window").width * 1.6327,
     width: Dimensions.get("window").width,
     position: "absolute"
   },
-  buffer: {
-    height: "54%"
-  },
-  // overflow: {
-  //   position: "absolute",
-  //   top: "4%",
-  //   right: "4%"
+  // buffer: {
+  //   height: "54%"
   // },
   pickerRowWrapper: {
+    position: 'absolute',
+    bottom: "28%",
     height: "12%",
     flexDirection: "row"
   },
@@ -43,12 +43,18 @@ export default {
     borderRadius: 5
   },
   gameStatusWrapper: {
+    position: 'absolute',
+    bottom: "20%",
     height: "8%",
+    width: "100%",
     justifyContent: "flex-end",
     alignItems: "center"
   },
   buttonWrapper: {
+    position: 'absolute',
     height: "20%",
+    width: "100%",
+    bottom: 0,
     // borderStyle: "solid",
     // borderColor: "#111",
     // borderWidth: 1,
@@ -57,6 +63,7 @@ export default {
   },
   button: {
     height: "80%",
+    width: '100%',
     borderRadius: 10,
     justifyContent: "center",
     alignItems: "center"

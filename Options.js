@@ -26,10 +26,14 @@ class Options extends Component {
            <Icon name="options-vertical" color="#fff" size={20} />
          </MenuTrigger>
          <MenuOptions>
-           <MenuOption onSelect={() => this.handleEmail()} text="Contact" />
+           <MenuOption 
+            style={{padding: 12}}
+            onSelect={() => this.handleEmail()}
+            text="Contact" />
            <MenuOption
-             onSelect={() => this.props.navigation.navigate(`PrivacyPolicy`)}
-             text="Privacy Policy"
+            style={{padding: 12}}
+            onSelect={() => this.props.navigation.navigate(`PrivacyPolicy`)}
+            text="Privacy Policy"
            />
          </MenuOptions>
       </Menu>
